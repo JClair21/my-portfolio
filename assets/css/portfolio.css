@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-weight: bold;
+     margin: 7px;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+head nav {
+    float: right;
+    margin: 10px 0;
+}
+
+header nav ul {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 20px;
+    color: #9a20b2;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 2%;
+    margin: 10px;
+}
+
+.main-header {
+    /*<!-- profile-picture -->*/
+    display: flex;
+    flex-wrap: initial;
+    justify-content: space-between;
+    padding: 75px;
+    background: #30D5C8;
+    color: #fff;
+}
+
+main h2 {
+    display: inline;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: #9a20b2;
+}
+
+.featured-card {
+    display: 1 0 45%;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-style: inset;
+    border-width: 15px;
+    margin: 10px;
+}
+
+.featured-card header {
+    padding: 20px;
+    background: #20b2aa;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.featured-card img {
+    max-height: 250px;
+    display: inline;
+    justify-content: left;
+}
+
+.featured-card p {
+    justify-content: right;
+}
+
+.card {
+    display: 1 0 45%;
+    justify-content: space-between;
+    padding: 30px;
+    width: 40%;
+    text-align: center;
+    border-style: inset;
+    border-width: 15px;
+    margin: 10px;
+    text-decoration: none;
+
+}
+
+.card header {
+    padding: 20px;
+    background: #20b2aa;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card img {
+    width: 80%;
+    min-width: 400px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 45px;
+}
+.contact-me ul {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-me ul li {
+    padding: 20px;
+    color: #9a20b2;
+}
+footer {
+    text-align: center;
+}
